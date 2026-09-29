@@ -78,14 +78,8 @@ Top-level cards showing:
 
 ---
 
-## 📂 File Structure
 
-POWER-BI-TASK-3/
-├── README PB3.md
-├── Shopify_Stock.pbix
-└── shopify_stock_data.csv
 
----
 
 ## 👤 Author
 
@@ -93,6 +87,3 @@ POWER-BI-TASK-3/
 
 ---
 
-## 📝 License
-
-This project is for educational/portfolio purposes.
