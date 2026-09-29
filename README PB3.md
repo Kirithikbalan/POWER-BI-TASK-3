@@ -1,99 +1,98 @@
-Shopify Stock Performance Dashboard
-Project Overview
+# 📊 Shopify Stock Performance Dashboard
 
-The Shopify Stock Performance Dashboard is an interactive Power BI dashboard created to analyze Shopify stock performance over time.
+## 🎯 Project Overview
 
-The dashboard provides information about stock prices, trading volume, moving averages, and allows users to interact with the data using filters and parameter selection.
+The **Shopify Stock Performance Dashboard** is an interactive Power BI dashboard designed to analyze Shopify (SHOP) stock performance over time. It provides key insights into price movements, trading volume, and market trends through intuitive visualizations and dynamic filters.
 
-Tools Used
-Power BI Desktop
-CSV Dataset
-Power BI Visualizations
-Dataset
+---
 
-The dataset contains Shopify stock market information such as:
+## 🛠️ Tools Used
 
-Date
-Open Price
-High Price
-Low Price
-Close Price
-Adjusted Close Price
-Trading Volume
-Dashboard Features
-1. OHLC Price Trend
+| Tool | Purpose |
+|------|---------|
+| Power BI Desktop | Dashboard development & visualization |
+| CSV Dataset | Raw stock market data source |
+| Power BI Visuals | Charts, KPIs, and interactive elements |
+| DAX | Measures for moving averages & calculations |
 
-The dashboard displays the daily Open, High, Low, and Close prices of Shopify stock.
+---
 
-This helps users understand how the stock price changes over time.
+## 📁 Dataset
 
-2. 20-Day Moving Average
+The dataset contains daily Shopify stock market information, including:
 
-The dashboard includes a 20-Day Moving Average to show the short-term stock price trend.
+- **Date** – Trading date
+- **Open Price** – Opening price of the day
+- **High Price** – Highest price during the day
+- **Low Price** – Lowest price during the day
+- **Close Price** – Closing price of the day
+- **Adjusted Close Price** – Close adjusted for splits/dividends
+- **Trading Volume** – Number of shares traded
 
-3. 50-Day Moving Average
+---
 
-The dashboard includes a 50-Day Moving Average to show the longer-term stock price trend.
+## 🚀 Dashboard Features
 
-4. Volume Trend
+### 1. OHLC Price Trend
+Displays the daily **Open, High, Low, and Close** prices of Shopify stock as a line/area chart to track intraday price ranges.
 
-A volume trend chart shows the trading volume of Shopify stock over time.
+### 2. Trading Volume Analysis
+Visualizes daily trading volume to identify high-activity periods and investor sentiment.
 
-This helps users observe changes in trading activity.
+### 3. Moving Averages
+Calculates and overlays **50-day** and **200-day** moving averages to highlight short-term and long-term trends.
 
-5. Date Timeline Slicer
+### 4. Interactive Filters
+Users can filter data by:
+- Date range
+- Price thresholds
+- Volume levels
 
-A date range slicer allows users to select a specific period.
+### 5. Parameter-Based Selection
+Allows users to dynamically switch between metrics (e.g., Close Price vs. Adjusted Close Price) using what-if parameters.
 
-The other dashboard visuals update according to the selected date range.
+### 6. Key Performance Indicators (KPIs)
+Top-level cards showing:
+- Latest closing price
+- Percentage change
+- Average daily volume
+- 52-week high/low
 
-6. Price Parameter Switch
+---
 
-A parameter switch allows users to select different stock price fields:
+## 📈 Insights Provided
 
-Open
-High
-Low
-Close
+- Identify bullish/bearish trends via moving average crossovers
+- Spot unusual volume spikes that may signal market events
+- Compare opening vs. closing behavior across periods
+- Track volatility using high-low spreads
 
-The selected field can be viewed dynamically in the parameter-based chart.
+---
 
-7. KPI Cards
+## ⚙️ How to Use
 
-The dashboard contains KPI cards showing:
+1. Download or clone this repository.
+2. Open the `.pbix` file in **Power BI Desktop**.
+3. Ensure the CSV dataset path is correctly linked under **Home → Transform Data → Data Source Settings**.
+4. Use slicers and parameter dropdowns to interact with the dashboard.
 
-Average Close
-Latest Close
-Total Volume
+---
 
-These provide a quick summary of important stock information.
+## 📂 File Structure
 
-Dashboard Layout
+POWER-BI-TASK-3/
+├── README PB3.md
+├── Shopify_Stock.pbix
+└── shopify_stock_data.csv
 
-The dashboard includes:
+---
 
-Dashboard title
-KPI cards
-OHLC price trend
-20-Day Moving Average
-50-Day Moving Average
-Volume trend
-Date timeline slicer
-Price parameter switch
-Workflow
-Import the Shopify stock dataset into Power BI.
-Check and prepare the data.
-Create a Date table.
-Establish the relationship between the Date table and stock data.
-Create the required measures.
-Create the OHLC price chart.
-Add the 20-Day and 50-Day moving averages.
-Create the trading volume trend chart.
-Add the date timeline slicer.
-Create the price parameter switch.
-Create KPI cards.
-Arrange and format the dashboard.
-Publish the completed Power BI dashboard.
-Conclusion
+## 👤 Author
 
-The Shopify Stock Performance Dashboard provides an interactive way to analyze Shopify's stock performance. It combines stock prices, moving averages, trading volume, KPI cards, date filtering, and parameter selection in a single Power BI dashboard.
+**Kirithikbalan**
+
+---
+
+## 📝 License
+
+This project is for educational/portfolio purposes.
